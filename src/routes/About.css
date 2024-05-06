@@ -1,0 +1,95 @@
+.about-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  padding: 0 50px 10px;
+}
+
+.about-label {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.about-logo {
+  max-width: 80%;
+  height: auto;
+  margin-left: 80px;
+}
+
+.description-container {
+  flex: 1;
+  width: auto; 
+  max-width: 1800px;
+  background: linear-gradient(to bottom, #000000, #00000049, #20202054);
+  border: 2px solid #462200ce;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(24, 26, 179);
+  border-radius: 50px; 
+  padding: 30px 50px 5px;
+  margin-bottom: 20px;
+}
+
+.description-container .about-text {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8921e; 
+}
+
+.description-container .about-mission {
+  margin-bottom: 25px;
+  font-size: 36px;
+  color: #808080;
+  text-align: center;
+  display: inline-block; 
+  transition: transform 0.3s;
+}
+
+.description-container .about-mission:hover {
+  color: #ff5e00;
+  transform: translateY(5px);
+}
+
+.description-container .about-vision {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 36px;
+  color: #808080;
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.description-container .about-vision:hover {
+  color: #ff5e00;
+  transform: translateY(5px);
+}
+
+.about-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  background-color: #ff7300;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 10px;
+  transition: background-color 0.3;
+}
+
+.about-button:hover {
+  background-color: #ca6200;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px;
+}
